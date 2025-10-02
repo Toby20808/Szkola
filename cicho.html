@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <input id="in1" type="text"><br>
+        <input id="in2" type="text"><br>
+        <textarea name="" id="ta1" cols="30" rows="10"></textarea><br>
+        <button onclick="Add()">CLICK</button>
+        <div id="space"></div>
+    <script>
+        function Add(){
+            let in_znak = document.querySelector("#in1").value
+            let tekst = document.querySelector("#ta1").value
+            let css_b = document.querySelector("#in2").value
+            
+            let asd = document.querySelector("#space")
+            const nowy_znacznik = document.createElement(in_znak)
+            nowy_znacznik.innerHTML = tekst
+            nowy_znacznik.style.backgroundColor = css_b
+            document.body.appendChild(nowy_znacznik)
+        }
+    </script>
+</body>
+</html>
