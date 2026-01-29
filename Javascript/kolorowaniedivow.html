@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            float: left;
+            border: 1px black solid;
+        }
+    </style>
+    <label for="Kolor">Kolor: </label>
+    <input type="text" name="Kolor" id="in1"><br>
+    <label for="Numer"></label>
+    <input type="number" name="Numer" id="in2">
+    <button id="btn1">Kliknij</button><br><br><br>
+    <div id="div1"></div>
+    <div id="div2"></div><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <script>
+
+        const button = document.querySelector("#btn1")
+
+        button.addEventListener("click", function(){
+            let colored = document.querySelector("#in1").value
+            let number = document.querySelector("#in2").value
+            let selected = document.querySelector("#div" + number)
+            selected.style = "background-color: " + colored    
+        })
+
+    </script>
+</body>
+</html>
