@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #eee;
+    background-color: #121212;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255,255,255,0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #ddd;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    color: #eee;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button, input[type="submit"] {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #4caf50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+    color: #ddd;
+}
+
+th {
+    background-color: #2a2a2a;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+    
+    input, select, button {
+        padding: 10px;
+    }
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    color: #eee;
+}
+
+.checkbox-group {
+    margin: 15px 0;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.success {
+    color: #c8e6c9;
+    padding: 10px;
+    background-color: #2e7d32;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.error {
+    color: #ffcdd2;
+    padding: 10px;
+    background-color: #c62828;
+    border-radius: 4px;
+    margin: 10px 0;
+}
