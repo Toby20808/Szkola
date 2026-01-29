@@ -1,0 +1,20 @@
+[
+    {
+        "date": "12.02.2026",
+        "place": "Krakow",
+        "room": "A23",
+        "exam_type": "pisemny"
+    },
+    {
+        "date": "15.02.2026",
+        "place": "Warszawa",
+        "room": "B12",
+        "exam_type": "ustny"
+    },
+    {
+        "date": "20.02.2026",
+        "place": "Poznan",
+        "room": "C3",
+        "exam_type": "praktyczny"
+    }
+]
